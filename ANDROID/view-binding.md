@@ -1,7 +1,6 @@
 # ViewBinding 사용하기
 
 ## build.gradle(app) 설정하기
-확장자가 없는 id_rsa 파일은 개인키이고, id_rsa.pub처럼 .pub 확장자가 있는 파일은 공개키이다.
 ```
 android {
     ...
