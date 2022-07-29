@@ -46,5 +46,17 @@ abstract class BaseFragment<VB : ViewBinding>(private val inflate: Inflate<VB>) 
 
 <br/>
 
+## 사용법
+```
+class SampleFragment : BaseFragment<FragmentSampleBinding>(FragmentSampleBinding::inflate) {
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
+}
+```
+
+<br/>
+
 # 참고
 [안드로이드 개발 (29) Fragment에서 ViewBinding 사용 시 주의할 점](https://gift123.tistory.com/58)
